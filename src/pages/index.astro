@@ -1,0 +1,266 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+const title = 'TECNIPROP - Broker Consulting';
+---
+
+<Layout title={title}>
+  <Header />
+  
+  <!-- Hero Section -->
+  <section class="relative h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('https://i.ibb.co/wr0t86Vn/Img-Cabecera.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 flex items-center justify-center h-full">
+      <div class="text-center text-white max-w-4xl px-4">
+        <h1 class="font-raleway font-black text-5xl md:text-7xl leading-tight mb-6">
+          HONESTIDAD,<br>
+          PROFESIONALISMO<br>
+          Y TECNOLOGÍA<br>
+          <span class="text-tecniprop-amarillo">A TU SERVICIO</span>
+        </h1>
+        <div class="font-opensans text-lg md:text-xl mb-8 space-y-2">
+          <p class="font-bold">TERRENOS • VIVIENDAS • INVERSIONES</p>
+          <p class="font-bold">DEPÓSITOS LOGÍSTICOS INDUSTRIALES</p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-tecniprop-amarillo text-tecniprop-gris font-bold py-3 px-8 rounded hover:bg-yellow-400 transition-colors">
+            REALIZAR UNA CONSULTA
+          </button>
+          <button class="border-2 border-white text-white font-bold py-3 px-8 rounded hover:bg-white hover:text-tecniprop-gris transition-colors">
+            VER LAS PROPIEDADES
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bienvenida Section -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-center font-raleway font-bold text-3xl md:text-4xl text-tecniprop-teal mb-12">
+        BIENVENIDOS A TECNIPROP BROKER CONSULTING - INVERSIONES INMOBILIARIAS
+      </h2>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div class="space-y-6 text-gray-700 leading-relaxed">
+          <p>
+            <strong>Tecniprop Broker Consulting</strong> es una empresa que combina el conocimiento del mercado inmobiliario con las posibilidades que brinda la tecnología actual para que puedas alcanzar tus objetivos. Nuestra trayectoria de <strong>30 años en el rubro inmobiliario</strong> nos permite brindar servicios a medida de las necesidades de tu empresa o de inversión.
+          </p>
+          <p>
+            El Broker Consulting Inmobiliario que ofrece soluciones inmobiliarias de <strong>Logística, Industriales y de Inversión</strong>. Contamos con un equipo de expertos en brindar soluciones a estos sectores clave, de manera personalizada y con el objetivo de conseguir resultados excepcionales.
+          </p>
+          <p>
+            Resolvemos las necesidades y ubicación de tu espacio físico; en alquiler, compra o venta. Trabajamos en bienes inmuebles corporativos, tales como <strong>Naves Industriales y Logísticas</strong>. Estamos enfocados en brindar soluciones y servicios de consultoría inmobiliaria y financiera.
+          </p>
+        </div>
+        
+        <div class="space-y-6 text-gray-700 leading-relaxed">
+          <p>
+            Si te interesan las <strong>inversiones en bienes raíces</strong>, te brindamos toda la información sobre los valores del mercado actual. Nuestro objetivo es brindar soluciones a empresas corporativas y a particulares para cubrir sus necesidades inmobiliarias.
+          </p>
+          <p>
+            De esta manera, puedes evaluar cuáles son las mejores locaciones para obtener una buena rentabilidad. Brindamos <strong>soluciones inmobiliarias integrales</strong> que incluyen el análisis financiero, información sobre los valores del mercado, la gestión de proyectos y los trámites legales para hacer inversiones rentables.
+          </p>
+          
+          <div class="bg-tecniprop-teal text-white p-6 rounded-lg mt-8">
+            <p class="text-center font-raleway font-bold text-lg">
+              PARA SABER MAS SOBRE NOSOTROS DESCARGA EL PDF
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Propiedad Destacada Section -->
+  <section class="py-16 bg-tecniprop-gris">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center justify-center mb-12">
+        <img src="https://i.ibb.co/gBLbS07/Icon-Propiedad-Destacada.png" alt="Propiedad Destacada" class="w-16 h-16 mr-4" />
+        <h2 class="font-raleway font-bold text-3xl md:text-4xl text-white">PROPIEDAD DESTACADA</h2>
+      </div>
+      
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="relative">
+            <img src="https://i.ibb.co/R4V6dsq1/Img-Nave-Pilar-427m2-Us360.jpg" alt="Nave en Pilar 427m²" class="w-full h-80 lg:h-full object-cover" />
+            <div class="absolute top-4 right-4 bg-tecniprop-amarillo text-tecniprop-gris font-bold px-4 py-2 rounded">
+              DESTACADA
+            </div>
+          </div>
+          <div class="p-8 lg:p-12">
+            <h3 class="font-raleway font-bold text-2xl md:text-3xl text-tecniprop-gris mb-4">
+              NAVE EN PILAR - 427M²
+            </h3>
+            <div class="text-tecniprop-teal font-bold text-3xl mb-6">
+              US$ 360.000
+            </div>
+            <div class="space-y-3 text-gray-700 mb-8">
+              <div class="flex items-center">
+                <span class="font-bold mr-2">Superficie:</span>
+                <span>427 m²</span>
+              </div>
+              <div class="flex items-center">
+                <span class="font-bold mr-2">Ubicación:</span>
+                <span>Pilar, Buenos Aires</span>
+              </div>
+              <div class="flex items-center">
+                <span class="font-bold mr-2">Tipo:</span>
+                <span>Nave Industrial</span>
+              </div>
+            </div>
+            <button class="bg-tecniprop-teal text-white font-bold py-3 px-8 rounded hover:bg-teal-700 transition-colors w-full md:w-auto">
+              VER DETALLES
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Inversiones -->
+        <div class="relative group cursor-pointer">
+          <div class="relative overflow-hidden rounded-lg h-96">
+            <img src="https://i.ibb.co/k2P2j321/Img-Inversiones.jpg" alt="Inversiones" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+              <div class="flex items-center mb-4">
+                <img src="https://i.ibb.co/1Yjbk4Z5/Icon-Inversiones.png" alt="Inversiones" class="w-12 h-12 mr-4" />
+                <h3 class="font-raleway font-bold text-2xl">INVERSIONES</h3>
+              </div>
+              <p class="text-sm leading-relaxed">
+                Buscamos y evaluamos activos a los mejores precios para el perfil de cada inversor. Trabajamos con una amplia red de desarrolladores ART primera línea.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terrenos -->
+        <div class="relative group cursor-pointer">
+          <div class="relative overflow-hidden rounded-lg h-96">
+            <img src="https://i.ibb.co/8LW2wsvV/Img-Terrenos.jpg" alt="Terrenos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+              <div class="flex items-center mb-4">
+                <img src="https://i.ibb.co/hJcS3X1J/Icon-Terrenos.png" alt="Terrenos" class="w-12 h-12 mr-4" />
+                <h3 class="font-raleway font-bold text-2xl">TERRENOS</h3>
+              </div>
+              <p class="text-sm leading-relaxed">
+                Somos expertos en la venta de terrenos, analizamos juntos las posibilidades de negocio. Completamos datos de arquitectura y trámites.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Naves Logísticas -->
+        <div class="relative group cursor-pointer">
+          <div class="relative overflow-hidden rounded-lg h-96">
+            <img src="https://i.ibb.co/ZR6vpWpS/Img-Naves.jpg" alt="Naves Logísticas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+              <div class="flex items-center mb-4">
+                <img src="https://i.ibb.co/nNNyFYwR/Icon-Naves-Logisticas.png" alt="Naves Logísticas" class="w-12 h-12 mr-4" />
+                <h3 class="font-raleway font-bold text-2xl">NAVES LOGÍSTICAS</h3>
+              </div>
+              <p class="text-sm leading-relaxed">
+                Encontramos soluciones a nuestros clientes tanto de alquiler como compra. Tenemos alianzas estratégicas con Parques logísticos de primera línea.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios Inmobiliarios Corporativos -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-center font-raleway font-bold text-3xl md:text-4xl text-tecniprop-teal mb-12">
+        SERVICIOS INMOBILIARIOS CORPORATIVOS
+      </h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Tasaciones -->
+        <div class="text-center group">
+          <div class="bg-tecniprop-gris rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4 group-hover:bg-tecniprop-teal transition-colors">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path>
+              <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h3 class="font-raleway font-bold text-xl text-tecniprop-gris mb-2">TASACIONES</h3>
+          <p class="text-gray-600 text-sm">
+            Evaluaciones profesionales de propiedades para inversiones y decisiones comerciales
+          </p>
+        </div>
+
+        <!-- Consulting -->
+        <div class="text-center group">
+          <div class="bg-tecniprop-gris rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4 group-hover:bg-tecniprop-teal transition-colors">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h3 class="font-raleway font-bold text-xl text-tecniprop-gris mb-2">CONSULTING</h3>
+          <p class="text-gray-600 text-sm">
+            Asesoramiento estratégico para maximizar el potencial de sus activos inmobiliarios
+          </p>
+        </div>
+
+        <!-- Gestión -->
+        <div class="text-center group">
+          <div class="bg-tecniprop-gris rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4 group-hover:bg-tecniprop-teal transition-colors">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <h3 class="font-raleway font-bold text-xl text-tecniprop-gris mb-2">GESTIÓN</h3>
+          <p class="text-gray-600 text-sm">
+            Administración integral de propiedades corporativas y carteras de inversión
+          </p>
+        </div>
+
+        <!-- Análisis de Mercado -->
+        <div class="text-center group">
+          <div class="bg-tecniprop-gris rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4 group-hover:bg-tecniprop-teal transition-colors">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path>
+            </svg>
+          </div>
+          <h3 class="font-raleway font-bold text-xl text-tecniprop-gris mb-2">ANÁLISIS DE MERCADO</h3>
+          <p class="text-gray-600 text-sm">
+            Estudios detallados de tendencias y oportunidades del mercado inmobiliario
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-16 bg-tecniprop-teal">
+    <div class="max-w-4xl mx-auto text-center px-4">
+      <h2 class="font-raleway font-bold text-3xl md:text-4xl text-white mb-6">
+        ¿LISTO PARA HACER TU PRÓXIMA INVERSIÓN?
+      </h2>
+      <p class="text-white text-lg md:text-xl mb-8">
+        Nuestro equipo de expertos está listo para ayudarte a encontrar la propiedad perfecta
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button class="bg-tecniprop-amarillo text-tecniprop-gris font-bold py-3 px-8 rounded hover:bg-yellow-400 transition-colors">
+          CONTACTAR AHORA
+        </button>
+        <button class="border-2 border-white text-white font-bold py-3 px-8 rounded hover:bg-white hover:text-tecniprop-teal transition-colors">
+          VER PROPIEDADES
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
