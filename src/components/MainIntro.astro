@@ -1,0 +1,114 @@
+---
+
+---
+
+<section
+    class="relative bg-cover bg-center bg-no-repeat"
+    style="background-image: url('https://i.ibb.co/tw4kTXjy/Tecniprop-Main-Background.webp');"
+>
+    <!-- Overlay oscuro para mejor legibilidad -->
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+    <!-- Contenido principal -->
+    <div class="relative z-10 flex items-center h-full">
+        <!-- Div texto con especificaciones exactas -->
+        <div
+            class="text-content"
+            style="width: 590px; padding: 25px; margin-left: 75px;"
+        >
+            <!-- Título principal -->
+            <div
+                class="main-title"
+                style="margin-top: 25px; margin-bottom: 25px; border-bottom: 3px solid #FFE02E; padding-bottom: 20px;"
+            >
+                <h1
+                    class="title text-white font-raleway font-black text-6xl text-justify leading-tight"
+                    style="margin: 0;"
+                >
+                    HONESTIDAD,<br />
+                    PROFESIONALISMO<br />
+                    Y TECNOLOGÍA<br />
+                    <span class="text-tecniprop-amarillo">A TU SERVICIO</span>
+                </h1>
+            </div>
+
+            <!-- Línea 1: Servicios -->
+            <div
+                class="services-line1 text-white font-raleway font-bold text-2xl flex justify-between items-center"
+                style="margin: 0; padding-top: 10px;"
+            >
+                <span>TERRENOS</span>
+                <span class="text-tecniprop-amarillo">—</span>
+                <span>VIVIENDAS</span>
+                <span class="text-tecniprop-amarillo">—</span>
+                <span>INVERSIONES</span>
+            </div>
+
+            <!-- Línea 2: Depósitos -->
+            <div
+                class="services-line2 text-white font-raleway font-bold text-2xl text-center"
+                style="margin: 0;"
+            >
+                <span class="text-tecniprop-amarillo">—</span>
+                <span>DEPÓSITOS LOGÍSTICOS E INDUSTRIALES</span>
+                <span class="text-tecniprop-amarillo">—</span>
+            </div>
+
+            <!-- Botones de acción -->
+            <div
+                class="buttons-section"
+                style="margin-top: 75px; margin-bottom: 25px;"
+            >
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <!-- Botón 1: Hacer una consulta -->
+                    <button
+                        class="consultation-btn bg-tecniprop-teal-accent text-white font-raleway font-bold py-4 px-8 border-4 border-tecniprop-amarillo hover:bg-tecniprop-teal transition-colors"
+                        style="border-radius: 10px; margin: 0; width: 254px;"
+                    >
+                        HACER UNA CONSULTA
+                    </button>
+
+                    <!-- Botón 2: Ver propiedades (si lo querés agregar) -->
+                    <button
+                        class="consultation-btn bg-tecniprop-teal-accent text-white font-raleway font-bold py-4 px-8 border-4 border-tecniprop-amarillo hover:bg-tecniprop-teal transition-colors"
+                        style="border-radius: 10px; margin: 0; width: 254px;"
+                    >
+                        VER PROPIEDADES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Asegurar que el componente sea responsive */
+    @media (max-width: 768px) {
+        .text-content {
+            width: 90% !important;
+            margin-left: 20px !important;
+            padding: 15px !important;
+        }
+
+        .main-title h1 {
+            font-size: 2.5rem !important;
+        }
+
+        .services-line1,
+        .services-line2 {
+            font-size: 1rem !important;
+        }
+    }
+
+    /* Hover effects para los botones */
+    .consultation-btn:hover {
+        background-color: #0e8193;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .properties-btn:hover {
+        background-color: #ffe02e;
+        color: #282f32;
+    }
+</style>

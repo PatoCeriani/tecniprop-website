@@ -1,0 +1,122 @@
+---
+
+---
+
+<section class="bg-white py-6 my-6">
+  <!-- Estructura de 3 columnas con gaps y márgenes consistentes -->
+  <div class="grid grid-cols-3 gap-12" style="margin-left: 75px; margin-right: 75px;">
+    
+    <!-- Columna 1: INVERSIONES -->
+   <div class="col-span-1" style="width: full; margin-left: 20px; ">
+  <div class="relative flex flex-col items-center rounded-[20px] mx-auto p-10 bg-tecniprop-teal-accent border-4 border-tecniprop-amarillo shadow-lg">
+    <!-- Imagen de fondo cuadrada -->
+    <div class="relative flex w-full aspect-video justify-center rounded-xl bg-cover bg-center " style="background-image: url('https://i.ibb.co/d4VdF9Lt/img-Inversiones-New.webp');">
+      
+      <!-- Ícono circular -->
+      <div class="absolute -bottom-12 flex h-[100px] w-[100px] items-center justify-center rounded-full border-[3px] border-tecniprop-teal-accent bg-tecniprop-amarillo">
+        <img class="h-full w-full" src="https://i.ibb.co/R4SSV7mf/Icon-Inversiones-SB.png" alt="Inversiones" />
+      </div>
+    </div>
+        
+        <!-- Contenido -->
+        <div class="mt-16 flex flex-col items-center text-center">
+            <h4 class="text-3xl font-bold text-white font-raleway mb-2">
+            INVERSIONES
+          </h4>
+          <div class="w-full h-1 bg-tecniprop-amarillo mb-6"></div>
+          
+          <!-- Texto descriptivo -->
+          <p class="text-base text-white font-open-sans leading-relaxed  px-4">
+            Especializados en inversiones inmobiliarias que generan valor a largo plazo, transmitimos calma a los inversores con una visión profesional, procurando una tendencia ANTI CÍCLICA.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Columna 2: TERRENOS -->
+    <div class="col-span-1" style="width: full; margin-left: 20px; ">
+  <div class="relative flex flex-col items-center rounded-[20px] mx-auto p-10 bg-tecniprop-teal-accent border-4 border-tecniprop-amarillo shadow-lg">
+    <!-- Imagen de fondo cuadrada -->
+    <div class="relative flex w-full aspect-video justify-center rounded-xl bg-cover bg-center " style="background-image: url('https://i.ibb.co/fdPPkHsL/img-Terrenos-New.webp');">
+      
+      <!-- Ícono circular -->
+      <div class="absolute -bottom-12 flex h-[100px] w-[100px] items-center justify-center rounded-full border-[3px] border-tecniprop-teal-accent bg-tecniprop-amarillo">
+        <img class="h-full w-full" src="https://i.ibb.co/V0ZXRRqb/Icon-Terrenos-SB.png" alt="TERRENOS" />
+      </div>
+    </div>
+            
+        <!-- Contenido -->
+        <div class="mt-16 flex flex-col items-center text-center">
+          <h4 class="text-3xl font-bold text-white font-raleway mb-2">
+            TERRENOS
+          </h4>
+          <div class="w-full h-1 bg-tecniprop-amarillo mb-6"></div>
+          
+          <!-- Texto descriptivo -->
+          <p class="text-base text-white font-open-sans leading-relaxed px-4">
+            Somos expertos en la venta de terrenos, conocemos muy bien sus normativas y sabemos asesorar al propietario. Comprendemos bien el negocio y el mercado en particular.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Columna 3: NAVES LOGÍSTICAS -->
+<div class="col-span-1" style="width: full; margin-left: 20px; ">
+  <div class="relative flex flex-col items-center rounded-[20px] mx-auto p-10 bg-tecniprop-teal-accent border-4 border-tecniprop-amarillo shadow-lg">
+    <!-- Imagen de fondo cuadrada -->
+    <div class="relative flex w-full aspect-video justify-center rounded-xl bg-cover bg-center " style="background-image: url('https://i.ibb.co/r2ZXZJgK/img-Naves-New.webp');">
+      
+      <!-- Ícono circular -->
+      <div class="absolute -bottom-12 flex h-[100px] w-[100px] items-center justify-center rounded-full border-[3px] border-tecniprop-teal-accent bg-tecniprop-amarillo">
+        <img class="h-full w-full" src="https://i.ibb.co/ycZ43MYW/Icon-Naves-Logisticas-SB.png" alt="Inversiones" />
+      </div>
+    </div>
+
+        <!-- Contenido -->
+        <div class="mt-16 flex flex-col items-center text-center">
+          <h4 class="text-3xl font-bold text-white font-raleway mb-2">
+            NAVES LOGÍSTICAS
+          </h4>
+          <div class="w-full h-1 bg-tecniprop-amarillo mb-6"></div>
+          
+          <!-- Texto descriptivo -->
+          <p class="text-base text-white font-open-sans leading-relaxed px-4">
+            Brindamos soluciones a nuestros clientes, y el mejor servicio inmobiliario. Contamos con un equipo interdisciplinario de profesionales especializado en industria, logística y comercio.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<style>
+  /* Hover effects */
+  .col-span-1 > div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .col-span-1:hover > div {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+  }
+
+  /* Hover effect en íconos */
+  .col-span-1:hover .bg-tecniprop-amarillo {
+    background-color: #0E8193;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .grid-cols-3 {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+    
+    .col-span-1 {
+      width: 100% !important;
+    }
+  }
+</style>

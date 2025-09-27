@@ -1,0 +1,101 @@
+---
+
+---
+
+<header class="bg-tecniprop-gris text-white">
+  <!-- Contenedor principal con márgenes de 75px -->
+  <div class="mx-auto px-[75px]">
+    <!-- Grid de 3 columnas con gap de 50px -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-[50px] py-6">
+      
+      <!-- Columna 1: Logo -->
+      <div class="flex items-center justify-center lg:justify-start">
+        <img 
+          src="https://i.ibb.co/q3VnDcPp/Tecniprop-Logo-Header.png" 
+          alt="Tecniprop Logo" 
+          class="h-auto w-full"
+        />
+      </div>
+      
+      <!-- Columna 2: Navegación Principal -->
+      <div class="flex items-center justify-center">
+        <nav class="flex flex-col space-y-3 w-full">
+          <!-- Primera fila de navegación -->
+          <div class="flex items-center justify-between text-base lg:text-lg font-medium">
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">PROPIEDADES</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">SOLUCIONES</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">NOSOTROS</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+          </div>
+
+          <!-- Segunda fila de navegación -->
+          <div class="flex items-center justify-between text-base lg:text-lg font-medium">
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">INFORMACIÓN</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">RESPUESTAS</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">CONTACTO</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Columna 3: Navegación Secundaria -->
+      <div class="flex items-center justify-center">
+        <nav class="flex flex-col space-y-3 w-full">
+          <!-- Primera fila -->
+          <div class="flex items-center justify-between text-base lg:text-lg font-medium">
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">INVERSIONES</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">GALPONES</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer">TERRENOS</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+          </div>
+
+          <!-- Segunda fila -->
+          <div class="flex items-center justify-between text-base lg:text-lg font-medium w-full">
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+            <span class="text-tecniprop-amarillo font-extrabold catalogo-item hover:text-white transition-colors duration-300 cursor-pointer text-center flex-1">CATÁLOGO DE PROPIEDADES DISPONIBLES</span>
+            <span class="text-tecniprop-amarillo font-extrabold hidden lg:inline">—</span>
+          </div>
+        </nav>
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+<style>
+  /* Hover para elementos de navegación normales */
+  .nav-item:hover {
+    color: #FFE02E;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  /* Hover específico para el catálogo */
+  .catalogo-item:hover {
+    color: white !important;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  /* Responsive - ocultar separadores en mobile */
+  @media (max-width: 1024px) {
+    .grid {
+      gap: 2rem;
+    }
+    
+    nav div {
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+  }
+</style>

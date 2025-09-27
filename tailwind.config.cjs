@@ -9,6 +9,7 @@ module.exports = {
           'teal': '#0E8193',
           'teal-dark': '#00617A',
           'teal-darker': '#001C2A',
+          'teal-light': '#588390',
           'teal-accent': '#043541',
           'gris-claro': '#E4E6E7',
         }

@@ -1,0 +1,95 @@
+---
+
+---
+
+<section class="bg-white py-6">
+  <!-- Contenedor principal con márgenes de 75px -->
+  <div class="mx-auto px-[75px]">
+    <!-- Una sola fila centrada -->
+    <div class="flex items-center justify-center py-6" style="padding: 25px;">
+      <nav class="flex items-center justify-center text-base lg:text-lg font-medium w-full space-x-8">
+        <a href="#inicio" class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer text-black font-bold flex items-center">
+          <span class="material-symbols-rounded text-tecniprop-teal mr-2">
+            arrow_upward
+          </span>INICIO
+        </a>
+        
+        
+        <a href="#bienvenidos" class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer text-black font-bold flex items-center">
+          <span class="material-symbols-rounded text-tecniprop-teal mr-2">
+            arrow_upward
+          </span>BIENVENIDOS
+        </a>
+        
+        
+        <a href="#inversiones" class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer text-black font-bold flex items-center">
+          <span class="material-symbols-rounded text-tecniprop-teal mr-2">
+            arrow_upward
+          </span>PROPIEDADES
+        </a>
+        
+        
+        <a href="#servicios-corporativos" class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer text-black font-bold flex items-center">
+          <span class="material-symbols-rounded text-tecniprop-teal mr-2">
+            arrow_upward
+          </span>SERVICIOS CORPORATIVOS
+        </a>
+        
+       
+        
+        <a href="#propiedad-destacada" class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer text-black font-bold flex items-center">
+          <span class="material-symbols-rounded text-tecniprop-teal mr-2">
+            arrow_upward
+          </span>PROPIEDAD DESTACADA
+        </a>
+        
+       
+        
+        <a href="#consultoria" class="nav-item hover:text-tecniprop-amarillo transition-colors duration-300 cursor-pointer text-black font-bold flex items-center">
+          <span class="material-symbols-rounded text-tecniprop-teal mr-2">
+            arrow_upward
+          </span>CONSULTORÍA INTEGRAL
+        </a>
+      </nav>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Hover para elementos de navegación */
+  .nav-item:hover {
+    color: #FFE02E;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+  /* Scroll suave */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Responsive - en mobile se apilan */
+  @media (max-width: 1024px) {
+    nav {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+    
+    .nav-item {
+      font-size: 0.875rem;
+    }
+    
+    nav span {
+      display: none;
+    }
+  }
+</style>

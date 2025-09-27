@@ -1,0 +1,81 @@
+---
+// filepath: e:\00-AlertaGráfica\Tecniprop\Web actual\Web-Rediseño\Starter-Astro\src\components\HeaderNew.astro
+---
+
+<header class="bg-tecniprop-gris text-white m-0 flex items-center justify-between">
+  <!-- Div Logo -->
+  <div class="logo-section" style="width: 590px; padding: 25px; margin-left: 75px;">
+    <img 
+      src="https://i.ibb.co/q3VnDcPp/Tecniprop-Logo-Header.png" 
+      alt="Tecniprop Logo" 
+      class="h-auto max-w-full"
+    />
+  </div>
+
+  <!-- Div Nav1 -->
+  <div class="nav1-section" style="width: 590px; padding: 25px; margin: 0px;">
+    <nav class="flex flex-col space-y-2">
+      <!-- Primera fila de navegación -->
+      <div class="flex items-center justify-between text-lg font-medium">
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>PROPIEDADES</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>SOLUCIONES</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>NOSOTROS</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+      </div>
+
+      <!-- Segunda fila de navegación -->
+      <div class="flex items-center justify-between text-lg font-medium">
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>INFORMACIÓN</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>RESPUESTAS</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>CONTACTO</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Div Nav2 -->
+  <div class="nav2-section" style="width: 590px; padding: 25px; margin-right: 75px;">
+    <nav class="flex flex-col space-y-2">
+      <!-- Primera fila -->
+      <div class="flex items-center justify-between text-lg font-medium">
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>INVERSIONES</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>GALPONES</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+        <span>TERRENOS</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+      </div>
+
+      <!-- Segunda fila -->
+      <div class="flex items-center justify-between text-lg font-medium">
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+       <span class="text-tecniprop-amarillo font-extrabold catalogo-hover">VER EL CATÁLOGO DE PROPIEDADES DISPONIBLES</span>
+        <span class="text-tecniprop-amarillo font-extrabold">—</span>
+      </div>
+    </nav>
+  </div>
+  
+</header>
+
+<style>
+  .nav1-section span:hover,
+  .nav2-section span:hover {
+    color: #FFE02E;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  /* Hover específico para el catálogo */
+  .catalogo-hover:hover {
+    color: white !important;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+</style>

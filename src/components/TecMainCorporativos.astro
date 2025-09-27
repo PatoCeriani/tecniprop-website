@@ -1,0 +1,153 @@
+---
+
+---
+
+<section class="bg-white py-6 my-6">
+    <!-- Estructura de 3 columnas con gaps y márgenes consistentes -->
+    <div
+        class="grid grid-cols-3 gap-12"
+        style="margin-left: 75px; margin-right: 75px;"
+    >
+        <!-- Columna 1: Títulos y botón -->
+        <div
+            class="col-span-1 flex flex-col justify-between"
+            style="width: 590px; padding: 25px; height: auto;"
+        >
+            <!-- SECCIÓN SUPERIOR: Títulos -->
+            <div class="titles-section">
+                <!-- Título principal con border-bottom amarillo -->
+                <div
+                    class="main-title"
+                    style="border-bottom: 3px solid #FFE02E; padding-bottom: 20px; margin-bottom: 20px;"
+                >
+                    <h2
+                        class="font-raleway font-bold text-4xl text-tecniprop-teal leading-tight"
+                        style="margin: 0;"
+                    >
+                        SERVICIOS INMOBILIARIOS<br />
+                        CORPORATIVOS
+                    </h2>
+                </div>
+
+                <!-- Subtítulo amarillo -->
+                <div class="subtitle" style="margin: 0; padding-top: 0;">
+                    <h2
+                        class="font-raleway font-bold text-2xl text-tecniprop-teal"
+                        style="margin: 0;"
+                    >
+                        SOLUCIONES INTEGRALES
+                    </h2>
+                </div>
+            </div>
+
+            <!-- SECCIÓN INFERIOR: Botón -->
+            <div
+                class="button-section"
+                style="margin-top: 40px; padding-bottom: 0;"
+            >
+                <button
+                    class="consultation-btn bg-tecniprop-teal-accent text-white font-raleway font-bold py-4 px-8 border-4 border-tecniprop-amarillo hover:bg-tecniprop-teal transition-colors w-full"
+                    style="border-radius: 10px; margin: 0;"
+                >
+                    <a
+                        href="https://www.tecniprop.com.ar/CredencialesProfesionales.pdf"
+                        target="_blank">COMUNICATE CON NOSOTROS</a
+                    >
+                </button>
+            </div>
+        </div>
+
+        <!-- Columna 2: Primera columna de texto -->
+        <div class="col-span-1" style="width: 590px; padding: 25px;">
+            <div class="text-black">
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    <strong class="text-tecniprop-teal"
+                        >TECNIPROP Broker Consulting</strong
+                    ><strong>
+                        brinda un servicio integral “Premium” a las empresas
+                        pymes en vía de expansión, empresas corporativas,
+                        distribuidoras, logísticas, industriales y exportadoras.
+                    </strong>
+                </p>
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    Si tienes un negocio en crecimiento que requiere una
+                    estructura, capaz de resolver las exigencias de la demanda
+                    de tus productos o servicios; te encuentras en el lugar
+                    indicado.
+                </p>
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    Más de 30 años de trabajo en el rubro Inmobiliario, nos
+                    permitieron conocer todo tipo de empresas.
+                </p>
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    Todas, tienen un enemigo en común: la creciente necesidad de
+                    espacio para el almacenamiento.
+                </p>
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    <strong
+                        >Localizamos los galpones y bodegas para el acopio de
+                        mercadería o de las materias primas que tu negocio
+                        necesita.</strong>
+                </p>
+            </div>
+        </div>
+
+        <!-- Columna 3: Segunda columna de texto -->
+        <div class="col-span-1" style="width: 590px; padding: 25px;">
+            <div class="text-black">
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    Si tu empresa requiere no solo espacio, sino también acceso
+                    a una gran potencia energética, pavimento reforzado y acceso
+                    a rutas para la distribución de mercaderías; lo recomendable
+                    es realizar el traslado hacia parques industriales.
+                </p>
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    Para escalar un negocio, debes pensar en grande y preparar
+                    la estructura para sostenerlo. Acompañamos a las empresas en
+                    este proceso.
+                </p>
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    <strong class="text-tecniprop-teal"
+                        >¿QUÉ RESUELVES CON ESTE SERVICIO?</strong
+                    >
+                </p>
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    La gestión, el seguimiento de proyectos que implican el
+                    traslado y la localización de la estructura hacia un nuevo
+                    sitio.
+                </p>
+                <p class="font-open-sans text-base leading-relaxed mb-4">
+                    <strong
+                        >Los parques industriales son los adecuados para
+                        satisfacer las necesidades de una empresa con estas
+                        características.</strong
+                    >
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+   /* Button hover effect */
+  .consultation-btn:hover {
+    background-color: #FFE02E;
+    border-color: #043541;
+    color: #043541;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+
+    /* Responsive adjustments */
+    @media (max-width: 1200px) {
+        .grid-cols-3 {
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+
+        .col-span-1 {
+            width: 100% !important;
+            padding: 15px !important;
+        }
+    }
+</style>
